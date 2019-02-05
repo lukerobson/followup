@@ -1,4 +1,4 @@
-This folder relates to creating the CSV file database that the rest of the tool uses. 
+This folder relates to creating the CSV file database that the rest of the tools use. 
 Data is taken from either https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=planets (has confirmed exoplanets & K2)  using the download table of all rows and columns or 
 https://exofop.ipac.caltech.edu/tess/download_toi.php?sort=toi&output=csv (TESS TOI - targets of interest).
 This data is passed into either exoplanets or tess depening on the data. 
