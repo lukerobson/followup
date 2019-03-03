@@ -1,5 +1,38 @@
 This folder relates to creating the CSV file database that the rest of the tools use. 
-Data is taken from either https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=planets (has confirmed exoplanets & K2)  using the download table of all rows and columns or 
-https://exofop.ipac.caltech.edu/tess/download_toi.php?sort=toi&output=csv (TESS TOI - targets of interest).
-This data is passed into either exoplanets or tess depening on the data. 
+
+Example of what the CSV contains - more infomation at bottom 
+Name of exoplanet,Name of exoplanet,Start time of transit in Unixtime, Transit time in mins,RA,DEC,Period in days,Transit depth in magnitude,v-bang magnitude,Name of exoplanet, Log RHK,Source
+WASP-52 b,WASP-52 b,1313810818,108,348.494748,8.761262,1.7497798,0.0271,12,WASP-52 b,-4.4,NASA Exoplanet Archive
+
+For confirmed exoplanets
+There are 3 diffrent sources;
+
+Exoplanet Data Explorer - http://exoplanets.org - exorg.php
+NASA Exoplanet Archive - https://exoplanetarchive.ipac.caltech.edu - exonasa.php
+Czech Astronomical Society - http://var2.astro.cz/ETD/ - exovar2.php
+
+Each of which has its own page that creates the CSV file that is needed. 
+The 3 CSVs files are sorted by sort.php 
+
+For TESS Targets of interest;
+https://exofop.ipac.caltech.edu/tess/ - tess.php 
+
+For K2 candidates;
+https://exoplanetarchive.ipac.caltech.edu - K2exoplanets.php
+
+CSV 
+
+Name of exoplanet - WASP-52 b
+Name of exoplanet -	WASP-52 b
+Start time of transit in Unixtime -	1313810818
+Transit time in mins -	108
+RA -	348.494748
+DEC -	8.761262
+Period in days -	1.7497798
+Transit depth in magnitude -	0.0271
+v-bang magnitude -	12
+Name of exoplanet -	WASP-52 b
+Log RHK -	-4.4
+Source -	NASA Exoplanet Archive
+
 
