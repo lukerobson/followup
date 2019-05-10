@@ -5,14 +5,14 @@ Name of exoplanet,Name of exoplanet,Start time of transit in Unixtime, Transit t
 WASP-52 b,WASP-52 b,1313810818,108,348.494748,8.761262,1.7497798,0.0271,12,WASP-52 b,-4.4,NASA Exoplanet Archive
 
 For confirmed exoplanets
-There are 3 diffrent sources;
+There are 4 diffrent sources:
 
 Exoplanet Data Explorer - http://exoplanets.org - exorg.php
 NASA Exoplanet Archive - https://exoplanetarchive.ipac.caltech.edu - exonasa.php
 Czech Astronomical Society - http://var2.astro.cz/ETD/ - exovar2.php
+ExoFOP-TESS - https://exofop.ipac.caltech.edu/tess/ - 
 
 Each of which has its own page that creates the CSV file that is needed. 
-The 3 CSVs files are sorted by sort.php 
 
 For TESS Targets of interest;
 https://exofop.ipac.caltech.edu/tess/ - tess.php 
@@ -22,8 +22,6 @@ https://exoplanetarchive.ipac.caltech.edu - K2exoplanets.php
 
 CSV 
 
-Name of exoplanet - WASP-52 b
-Name of exoplanet -	WASP-52 b
 Start time of transit in Unixtime -	1313810818
 Transit time in mins -	108
 RA -	348.494748
@@ -33,6 +31,17 @@ Transit depth in magnitude -	0.0271
 v-bang magnitude -	12
 Name of exoplanet -	WASP-52 b
 Log RHK -	-4.4
-Source -	NASA Exoplanet Archive
 
+TESS TOI + has more afterwords 
 
+Start time error
+Period time error
+duration error
+master priority
+sg1a priority
+sg1b priority
+tessdis disposition
+tfopwg disposition
+PPM
+comments	
+TIC number
