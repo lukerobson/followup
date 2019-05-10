@@ -1,1 +1,3 @@
 This folder relates to the all tool which caculates the transit times for all the exoplanets in the database.
+The allin.php is the input page
+The allphp is the output page
