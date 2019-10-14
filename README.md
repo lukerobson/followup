@@ -1,5 +1,6 @@
 Transit Follow Up Tool
 Website code in PHP to predict transit events with the ability to include off transit time before and after. Also the ability to predict the uncertainty of the photometry on CCD cameras.  Live website at: http://observatory.herts.ac.uk/exotransitpredict
+http://bit.ly/2BaFeXo
 
 There are two main sections: All tool or Single tool. With another page of functions.
 
